@@ -1,76 +1,12 @@
-# Laravel SB Admin 2
+## Aplikasi Praktikum Laravel
+Aplikasi Ini adalah aplikasi praktikum laravel berseri dengan dengan video pada link youtube 
+https://www.youtube.com/watch?v=Ip8l7mngBAI&list=PL4G1JB5UFUnkXlS02nbAt36cJLZ_BMZaP
 
-SB Admin 2 for Laravel.
+## Cara Menjalankan Aplikasi
 
-| Laravel Version | Branch |
-|-----------------|--------|
-| 8.0             | master |
-| 7.0             | v7.0   |
-| 6.0             | v6.0   |
-| 5.8             | v5.8   |
-
-## Requirements
-
-- PHP >= 7.2.0
-- BCMath PHP Extension
-- Ctype PHP Extension
-- JSON PHP Extension
-- Mbstring PHP Extension
-- OpenSSL PHP Extension
-- PDO PHP Extension
-- Tokenizer PHP Extension
-- XML PHP Extension
-
-## Installation
-
-- Clone the repo and `cd` into it
-- Run `composer install`
-- Rename or copy `.env.example` file to `.env`
-- Run `php artisan key:generate`
-- Set your database credentials in your `.env` file
-
-## Note
-
-Recommend to install this preset on a project that you are starting from scratch, otherwise your project's design might break.
-
-## Credits
-
-Laravel SB Admin 2 uses some open-source third-party libraries/packages, many thanks to the web community.
-
-- Laravel - Open source framework.
-- LaravelEasyNav - Making managing navigation in Laravel easy.
-- SB Admin 2 - Thanks to Start Bootstrap.
-
-## Preview
-
-`login`
-
-<img src="https://imgur.com/YjGp6Sbl.png">
-
-***
-
-`register`
-
-<img src="https://imgur.com/Wj09cu4l.png">
-
-***
-
-`dashboard`
-
-<img src="https://imgur.com/CrmOfT5l.png">
-
-***
-
-`profile`
-
-<img src="https://imgur.com/5t4eS1rl.png">
-
-***
-
-`logout`
-
-<img src="https://imgur.com/d9JclOYl.png">
-
-## License
-
-Licensed under the MIT license.
+1. Clone/download repositori dengan cara ```https://github.com/Muharir17/perpustakaan.git```
+2. Lakukan perintah ```composer install``` dan  ```composer update``` pada terminal atau cmd
+3. Lakukan perintah ```php artisan key:generate```
+4. Buat Database dengan nama db_perpus dengan phpMyadmin atau Tools Lain yang sejenis
+5. Lakukan Perintah ```php artisan migrate:refresh --seed```
+6. untuk menjalankan bisa menggunakan ```php artisan serve``` kalau tidak menggunakan laragon, kalau menggunakan laragon tidak perlu menjalankan perintah ini, tinggal masukkan ke folder root di laragon dan reload apache. 
